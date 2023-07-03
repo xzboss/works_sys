@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--<bean class="org.example.IOC.DataBaseConfig" id="dbconfig">
+        <property name="url" value="localhost:3306/dbname"></property>
+        <property name="driverName" value="driver"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>-->
+    <!--<bean class="org.example.IOC.Building" id="Building">
+        <property name="color" value="yellow"></property>
+        <property name="number" value="2"></property>
+    </bean>-->
+<!--    <bean class="org.example.IOC.School" id="School">-->
+<!--        <property name="name" value="成都理工"></property>-->
+<!--        <property name="building"></property>-->
+<!--    </bean>-->
+    <!--自动扫包-->
+<!--    <context:component-scan base-package="org.example.AOP"></context:component-scan>-->
+    <!--开启自动生成代理-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+</beans>

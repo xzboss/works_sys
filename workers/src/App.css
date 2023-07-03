@@ -1,0 +1,26 @@
+th,
+td {
+	text-align: center !important;
+}
+
+th,
+td,
+table,
+div,
+header,
+section {
+	background-color: transparent !important;
+	border: 1px transparent !important;
+}
+
+th::before {
+	background-color: transparent !important;
+}
+.ant-modal-content{
+	background-color: white !important;
+	border-radius: 20px;
+}
+.exit{
+	display: flex;
+	justify-content: center;
+}

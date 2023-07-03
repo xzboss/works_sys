@@ -1,0 +1,29 @@
+.box {
+	padding: 50px 0;
+	border-radius: 10px;
+	background-color: aliceblue;
+	animation: appear 1s;
+}
+h1{
+	opacity: .7;
+}
+.row {
+	margin-bottom: 50px;
+}
+
+.alert {
+	margin-top: -20px;
+	border: transparent;
+	padding: 2px;
+	font-size: 10px;
+	opacity: .8;
+}
+@keyframes appear {
+	0% {
+		transform: translateY(30px)
+	}
+
+	100% {
+		transform: translateY(0px)
+	}
+}
