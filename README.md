@@ -1,6 +1,6 @@
 # works_sys 员工管理系统前后端
 
-## 前端 react + antd + BaiduMap + fetch + react-router-dom + 
+## 前端 react + antd + BaiduMap + fetch + react-router-dom + react-redux
 - 登录注册
 - 接口通过token验证
 - 登陆注册表单验证
